@@ -1,6 +1,6 @@
 
 
-# Installieren von Smartstore Core auf CentOS 8.5
+# Installieren von Smartstore Core auf CentOS 9
 
 ## Voraussetzungen
 
