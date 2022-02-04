@@ -5,7 +5,7 @@
 ## Voraussetzungen
 
  - Smartstore Core für Linux X64
- - CentOS 8.5
+ - CentOS 9
  - Nicht root Benutzer mit sudo-Rechten
 
 ## Ablauf
@@ -170,7 +170,7 @@ sudo usermod newftpuser -s /bin/ftponly
 	```
 - Es wird die Standard-Landingpage für NGINX angezeigt
 
-	![NGINX-Landingspage](https://www.smartstore.com/news/images/Qs7PlUtvga.png)
+	![NGINX-Landingspage](https://www.smartstore.com/news/images/nginx_centos9_1.jpg)
 
 ### NGINX als Reverse-Proxy konfigurieren
 Auf CentOS 8 ist der Ordner ```/usr/share/nginx/html``` als Standard-WWW-Ordner konfiguriert. Wir werden diesen ORdner nicht nutzen und erstellen stattdessen einen Ordner unter ```/var/www```.
